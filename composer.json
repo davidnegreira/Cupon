@@ -1,12 +1,14 @@
 {
     "name": "javiereguiluz/cupon",
+    "license": "MIT",
+    "type": "project",
     "description": "Aplicación de prueba para aprender a programar con Symfony 2.5",
     "autoload": {
         "psr-0": { "": "src/" }
     },
     "require": {
         "php"                                  : ">=5.3.3",
-        "symfony/symfony"                      : "2.5.*",
+        "symfony/symfony"                      : "2.7.*@dev",
         "doctrine/orm"                         : "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle"             : "~1.2",
         "twig/extensions"                      : "~1.0",
@@ -19,8 +21,8 @@
         "incenteev/composer-parameter-handler" : "~2.0",
         "doctrine/doctrine-fixtures-bundle"    : "dev-master",
         "doctrine/data-fixtures"               : "dev-master",
-        "ideup/simple-paginator-bundle"        : "dev-master",
-        "beberlei/DoctrineExtensions"          : "dev-master"
+        "beberlei/DoctrineExtensions"          : "0.3.0",
+        "ideup/simple-paginator-bundle"        : "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
