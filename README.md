@@ -1,7 +1,7 @@
 ForkDavid
 =========
 
-Aplicación de prueba Cupon para Symfony 2.5.x
+Aplicación de prueba Cupon para Symfony 2.7.x
 =============================================
 
 **Cupon** es una aplicación de prueba desarrollada para aprender a programar con Symfony 2.7. Se trata de un clon simplificado de Groupon, de ahí el nombre. Esta aplicación es la base del libro **[Desarrollo web ágil con Symfony2](http://www.symfony.es/libro/)** publicado por Javier Eguiluz.
